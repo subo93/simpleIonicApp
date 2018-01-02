@@ -1,0 +1,38 @@
+<ion-view>
+  <ion-header-bar align-title="center" class="bar-positive">
+
+    <h1 class="title">Add select</h1>
+  </ion-header-bar>
+  <ion-content class="padding">
+
+
+
+      <form ng-submit="addMember()" ng-controller="MemberCtrl">
+        <div class="list">
+          <label class="item item-input">
+            <span class="input-label">fname</span>
+            <input type="text"  ng-model="adata.fname">
+          </label>
+          <label class="item item-input">
+            <span class="input-label">lname</span>
+            <input type="text"   ng-model="adata.lname">
+          </label>
+          <label class="item item-input">
+            <span class="input-label">age</span>
+            <input type="number"   ng-model="adata.age">
+          </label>
+          <label class="item ">
+            <button class="button button-block button-positive" type="submit">Create</button>
+          </label>
+        </div>
+      </form>
+
+
+
+
+
+
+
+  </ion-content>
+
+</ion-view>
